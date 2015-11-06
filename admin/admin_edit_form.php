@@ -2,7 +2,7 @@
 <!doctype html>
 <html class="no-js">
 <head>
-    <title>表单 | 后台管理系统</title>
+    <title>修改借款人信息 | 后台管理系统</title>
 </head>
 <body>
 <?php include "admin_header.php" ?>
@@ -16,8 +16,8 @@
     <div class="admin-content">
 
         <div class="am-cf am-padding">
-            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">表单</strong> /
-                <small>form</small>
+            <div class="am-fl am-cf"><strong class="am-text-primary am-text-lg">修改借款人信息</strong> /
+                <small>Edit borrower information</small>
             </div>
         </div>
 
