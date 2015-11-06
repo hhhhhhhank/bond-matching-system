@@ -41,11 +41,11 @@
                 <table class="am-table am-table-bd am-table-striped admin-content-table">
                     <thead>
                     <tr>
-                        <th>ID</th>
-                        <th>用户名</th>
-                        <th>最后成交任务</th>
-                        <th>成交订单</th>
-                        <th>管理</th>
+                        <th>编号</th>
+                        <th>借款金额</th>
+                        <th>借款人</th>
+                        <th>电话号码</th>
+                        <th>操作</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -67,79 +67,7 @@
                             </div>
                         </td>
                     </tr>
-                    <tr>
-                        <td>2</td>
-                        <td>风清扬</td>
-                        <td><a href="#">公司LOGO设计</a></td>
-                        <td><span class="am-badge am-badge-danger">+2</span></td>
-                        <td>
-                            <div class="am-dropdown" data-am-dropdown>
-                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle"
-                                        data-am-dropdown-toggle><span class="am-icon-cog"></span> <span
-                                        class="am-icon-caret-down"></span></button>
-                                <ul class="am-dropdown-content">
-                                    <li><a href="#">1. 编辑</a></li>
-                                    <li><a href="#">2. 下载</a></li>
-                                    <li><a href="#">3. 删除</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>3</td>
-                        <td>詹姆斯</td>
-                        <td><a href="#">开发一款业务数据软件</a></td>
-                        <td><span class="am-badge am-badge-warning">+10</span></td>
-                        <td>
-                            <div class="am-dropdown" data-am-dropdown>
-                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle"
-                                        data-am-dropdown-toggle><span class="am-icon-cog"></span> <span
-                                        class="am-icon-caret-down"></span></button>
-                                <ul class="am-dropdown-content">
-                                    <li><a href="#">1. 编辑</a></li>
-                                    <li><a href="#">2. 下载</a></li>
-                                    <li><a href="#">3. 删除</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>4</td>
-                        <td>云适配</td>
-                        <td><a href="#">适配所有网站</a></td>
-                        <td><span class="am-badge am-badge-secondary">+50</span></td>
-                        <td>
-                            <div class="am-dropdown" data-am-dropdown>
-                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle"
-                                        data-am-dropdown-toggle><span class="am-icon-cog"></span> <span
-                                        class="am-icon-caret-down"></span></button>
-                                <ul class="am-dropdown-content">
-                                    <li><a href="#">1. 编辑</a></li>
-                                    <li><a href="#">2. 下载</a></li>
-                                    <li><a href="#">3. 删除</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
 
-                    <tr>
-                        <td>5</td>
-                        <td>呵呵呵</td>
-                        <td><a href="#">基兰会获得BUFF</a></td>
-                        <td><span class="am-badge">+22</span></td>
-                        <td>
-                            <div class="am-dropdown" data-am-dropdown>
-                                <button class="am-btn am-btn-default am-btn-xs am-dropdown-toggle"
-                                        data-am-dropdown-toggle><span class="am-icon-cog"></span> <span
-                                        class="am-icon-caret-down"></span></button>
-                                <ul class="am-dropdown-content">
-                                    <li><a href="#">1. 编辑</a></li>
-                                    <li><a href="#">2. 下载</a></li>
-                                    <li><a href="#">3. 删除</a></li>
-                                </ul>
-                            </div>
-                        </td>
-                    </tr>
                     </tbody>
                 </table>
             </div>
@@ -153,7 +81,7 @@
                     <div class="am-panel-bd am-collapse am-in" id="collapse-panel-1">
                         <ul class="am-list admin-content-file">
                             <li>
-                                <strong><span class="am-icon-upload"></span> Kong-cetian.Mp3</strong>
+                                <strong><span class="am-icon-upload"></span>进度条</strong>
 
                                 <p>3.3 of 5MB - 5 mins - 1MB/Sec</p>
 
@@ -162,14 +90,22 @@
                                 </div>
                             </li>
                             <li>
-                                <strong><span class="am-icon-check"></span> 好人-cetian.Mp3</strong>
+                                <strong><span class="am-icon-check"></span> 进度条</strong>
 
                                 <p>3.3 of 5MB - 5 mins - 3MB/Sec</p>
+                                <div class="am-progress am-progress-striped am-progress-sm am-active">
+                                    <div class="am-progress-bar am-progress-bar-success" style="width: 82%">92%</div>
+                                </div>
+
                             </li>
                             <li>
-                                <strong><span class="am-icon-check"></span> 其实都没有.Mp3</strong>
+                                <strong><span class="am-icon-check"></span> 进度条</strong>
 
                                 <p>3.3 of 5MB - 5 mins - 3MB/Sec</p>
+
+                                <div class="am-progress am-progress-striped am-progress-sm am-active">
+                                    <div class="am-progress-bar am-progress-bar-success" style="width: 82%">52%</div>
+                                </div>
                             </li>
                         </ul>
                     </div>

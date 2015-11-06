@@ -9,13 +9,11 @@
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp"/>
     <link rel="icon" type="image/png" href="images/favicon.png">
-    <link rel="apple-touch-icon-precomposed" href="images/app-icon72x72@2x.png">
+    <link rel="apple-touch-icon-precomposed" href="images/favicon.png">
     <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
     <link rel="stylesheet" href="<?php echo _url_ ?>admin/css/amazeui.min.css"/>
     <link rel="stylesheet" href="<?php echo _url_ ?>admin/css/admin.css">
 </head>
-
-
 <!--[if lte IE 9]>
 <p class="browsehappy">你正在使用<strong>过时</strong>的浏览器，Amaze UI 暂不支持。 请 <a href="http://browsehappy.com/" target="_blank">升级浏览器</a>
     以获得更好的体验！</p>
@@ -23,8 +21,8 @@
 
 <header class="am-topbar admin-header">
     <div class="am-topbar-brand">
-        <strong>EasyCURD</strong>
-        <small>后台管理系统</small>
+        <strong>Bond Matching</strong>
+        <small>债券匹配系统</small>
     </div>
 
     <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"

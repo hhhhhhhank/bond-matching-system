@@ -1,3 +1,4 @@
+<?php require "../config.php" ?>
 <!doctype html>
 <html class="no-js">
 <head>

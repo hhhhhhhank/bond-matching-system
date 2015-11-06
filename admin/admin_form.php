@@ -1,4 +1,4 @@
-<?php require "../config.php"?>
+<?php require "../config.php" ?>
 <!doctype html>
 <html class="no-js">
 <head>
@@ -9,7 +9,7 @@
 
 <div class="am-cf admin-main">
     <!-- sidebar start -->
-<?php include"admin_sider.php"?>
+    <?php include "admin_sider.php" ?>
     <!-- sidebar end -->
 
     <!-- content start -->
@@ -30,70 +30,127 @@
 
             <div class="am-tabs-bd">
                 <div class="am-tab-panel am-fade am-in am-active" id="tab1">
-                    <div class="am-g am-margin-top">
-                        <div class="am-u-sm-4 am-u-md-2 am-text-right">所属类别</div>
-                        <div class="am-u-sm-8 am-u-md-10">
-                            <select data-am-selected="{btnSize: 'sm'}">
-                                <option value="option1">选项一...</option>
-                                <option value="option2">选项二.....</option>
-                                <option value="option3">选项三........</option>
-                            </select>
-                        </div>
-                    </div>
 
-                    <div class="am-g am-margin-top">
-                        <div class="am-u-sm-4 am-u-md-2 am-text-right">显示状态</div>
-                        <div class="am-u-sm-8 am-u-md-10">
-                            <div class="am-btn-group" data-am-button>
-                                <label class="am-btn am-btn-default am-btn-xs">
-                                    <input type="radio" name="options" id="option1"> 正常
-                                </label>
-                                <label class="am-btn am-btn-default am-btn-xs">
-                                    <input type="radio" name="options" id="option2"> 待审核
-                                </label>
-                                <label class="am-btn am-btn-default am-btn-xs">
-                                    <input type="radio" name="options" id="option3"> 不显示
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+                    <div class="am-g am-margin-top" >
 
-                    <div class="am-g am-margin-top">
-                        <div class="am-u-sm-4 am-u-md-2 am-text-right">推荐类型</div>
-                        <div class="am-u-sm-8 am-u-md-10">
-                            <div class="am-btn-group" data-am-button>
-                                <label class="am-btn am-btn-default am-btn-xs">
-                                    <input type="checkbox"> 允许评论
-                                </label>
-                                <label class="am-btn am-btn-default am-btn-xs">
-                                    <input type="checkbox"> 置顶
-                                </label>
-                                <label class="am-btn am-btn-default am-btn-xs">
-                                    <input type="checkbox"> 推荐
-                                </label>
-                                <label class="am-btn am-btn-default am-btn-xs">
-                                    <input type="checkbox"> 热门
-                                </label>
-                                <label class="am-btn am-btn-default am-btn-xs">
-                                    <input type="checkbox"> 轮播图
-                                </label>
-                            </div>
-                        </div>
-                    </div>
+                        <form class="am-form" action="action/addInfoAction.php" method="post">
 
-                    <div class="am-g am-margin-top">
-                        <div class="am-u-sm-4 am-u-md-2 am-text-right">
-                            发布时间
-                        </div>
-                        <div class="am-u-sm-8 am-u-md-10">
-                            <form action="" class="am-form am-form-inline">
-                                <div class="am-form-group am-form-icon">
-                                    <i class="am-icon-calendar"></i>
-                                    <input type="text" class="am-form-field am-input-sm" placeholder="时间">
+                            <div class="am-g am-margin-top">
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    借款人编号
                                 </div>
-                            </form>
-                        </div>
+                                <div class="am-u-sm-8 am-u-md-4">
+                                    <input type="text" class="am-input-sm" type="text" name="username" id="username" value="">
+                                </div>
+                                <div class="am-hide-sm-only am-u-md-6">*必填，不可重复</div>
+                            </div>
+
+
+                            <div class="am-g am-margin-top">
+
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    借款人姓名
+                                </div>
+                                <div class="am-u-sm-8 am-u-md-4 am-u-end col-end">
+                                    <input type="text" class="am-input-sm">
+                                </div>
+                                <div class="am-hide-sm-only am-u-md-6">*必填，不可重复</div>
+                            </div>
+
+
+                            <div class="am-g am-margin-top">
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    身份证号码
+                                </div>
+                                <div class="am-u-sm-8 am-u-md-4">
+                                    <input type="text" class="am-input-sm">
+                                </div>
+                                <div class="am-hide-sm-only am-u-md-6">*必填</div>
+                            </div>
+
+
+                            <!--所属类别-->
+                            <div class="am-g am-margin-top">
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    车型
+                                </div>
+                                <div class="am-u-sm-8 am-u-md-4">
+                                    <input type="text" class="am-input-sm">
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6">填写车型</div>
+                            </div>
+
+
+                            <!--所属类别-->
+                            <div class="am-g am-margin-top">
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    地址
+                                </div>
+                                <div class="am-u-sm-8 am-u-md-4">
+                                    <input type="text" class="am-input-sm">
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6">住宅地址</div>
+                            </div>
+
+
+                            <!--所属类别-->
+                            <div class="am-g am-margin-top">
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    金额
+                                </div>
+                                <div class="am-u-sm-8 am-u-md-4">
+                                    <input type="text" class="am-input-sm">
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6">填写金额，精确到小数点后两位</div>
+                            </div>
+
+
+                            <div class="am-g am-margin-top">
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    贷款日期
+                                </div>
+                                <div class="am-u-sm-8 am-u-md-4">
+                                    <input type="date" class="am-input-sm">
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6"></div>
+                            </div>
+
+                            <!--所属类别-->
+
+                            <div class="am-g am-margin-top">
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    还款日期
+                                </div>
+                                <div class="am-u-sm-8 am-u-md-4">
+                                    <input type="date" class="am-input-sm">
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6"></div>
+                            </div>
+
+
+                            <!--所属类别-->
+
+
+                            <div class="am-g am-margin-top">
+                                <div class="am-u-sm-4 am-u-md-2 am-text-right">
+                                    还款日期
+                                </div>
+                                <div class="am-u-sm-8 am-u-md-4">
+                                    <select class="am-input-sm">
+                                        <option value="option1">家用</option>
+                                        <option value="option2">商用</option>
+                                    </select>
+                                </div>
+                                <div class="am-u-sm-12 am-u-md-6"></div>
+                            </div>
+
+                            <div class="am-margin">
+                                <button type="button" class="am-btn am-btn-primary am-btn-xs">提交保存</button>
+                                <button type="button" class="am-btn am-btn-primary am-btn-xs">放弃保存</button>
+                            </div>
+                        </form>
                     </div>
+
 
                 </div>
 
@@ -184,10 +241,7 @@
             </div>
         </div>
 
-        <div class="am-margin">
-            <button type="button" class="am-btn am-btn-primary am-btn-xs">提交保存</button>
-            <button type="button" class="am-btn am-btn-primary am-btn-xs">放弃保存</button>
-        </div>
+
     </div>
     <!-- content end -->
 
