@@ -1,6 +1,6 @@
 <footer>
     <hr>
-    <p class="am-padding-lg">Design by Yanvalue</p>
+    <p class="am-padding-lg" style="text-align: center;">Design by Yanvalue</p>
 </footer>
 
 <!--[if lt IE 9]>
@@ -9,6 +9,7 @@
 
 <script src="<?php echo _url_ ?>admin/js/amazeui.ie8polyfill.min.js"></script>
 <![endif]-->
+
 
 <!--[if (gte IE 9)|!(IE)]><!-->
 <script src="<?php echo _url_ ?>admin/js/jquery.min.js"></script>
