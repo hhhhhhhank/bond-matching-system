@@ -22,6 +22,9 @@ $database = new medoo([
 $username = $_POST['username'];
 $password = $_POST['password'];
 
+echo $password;
+echo $username;
+
 $database->select('ec_user', [
     'name' => 'foo',
     'email' => 'foo@bar.com',
