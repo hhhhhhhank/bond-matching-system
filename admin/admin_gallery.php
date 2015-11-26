@@ -28,7 +28,7 @@
                     <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-1.jpg"
                          alt=""/>
 
-                    <div class="gallery-title">远方 有一个地方 那里种有我们的梦想</div>
+                    <div class="gallery-title">photo1</div>
                     <div class="gallery-desc">2375-09-26</div>
                 </a>
             </li>
@@ -37,7 +37,7 @@
                     <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-2.jpg"
                          alt=""/>
 
-                    <div class="gallery-title">君可见漫天落霞</div>
+                    <div class="gallery-title">photo1</div>
                     <div class="gallery-desc">2375-09-26</div>
                 </a>
             </li>
@@ -46,100 +46,11 @@
                     <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-3.jpg"
                          alt=""/>
 
-                    <div class="gallery-title">此刻鲜花满天幸福在身边</div>
+                    <div class="gallery-title">photo1</div>
                     <div class="gallery-desc">2375-09-26</div>
                 </a>
             </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-4.jpg"
-                         alt=""/>
 
-                    <div class="gallery-title">你当我是浮夸吧</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-4.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">远方 有一个地方 那里种有我们的梦想</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-1.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">斜阳染幽草 几度飞红</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-1.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">远方 有一个地方 那里种有我们的梦想</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-3.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">你当我是浮夸吧</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-3.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">远方 有一个地方 那里种有我们的梦想</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-2.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">君可见漫天落霞</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-3.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">你当我是浮夸吧</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-2.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">君可见漫天落霞</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <img class="am-img-thumbnail am-img-bdrs" src="http://s.amazeui.org/media/i/demos/bing-1.jpg"
-                         alt=""/>
-
-                    <div class="gallery-title">斜阳染幽草 几度飞红</div>
-                    <div class="gallery-desc">2375-09-26</div>
-                </a>
-            </li>
         </ul>
 
         <div class="am-margin am-cf">
